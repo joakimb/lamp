@@ -1,0 +1,13 @@
+
+version: '2'
+services:
+
+  lamp-server:
+    container_name: lamp-server
+    build: .
+    ports:
+      - "80:80"
+      - "443:443"
+      - "3306:3306"
+    volumes:
+      - ./vulnerablewebshop:/app
