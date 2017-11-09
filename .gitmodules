@@ -1,0 +1,3 @@
+[submodule "vulnerablewebshop"]
+	path = vulnerablewebshop
+	url = git@github.com:joakimb/vulnerablewebshop.git
