@@ -14,4 +14,10 @@ else
     echo "=> Using an existing volume of MySQL"
 fi
 
+#echo llllllllllllllllllllllllllllllllllllllllllllllll
 exec supervisord -n
+#echo pppppppppppppppppppppppppppppppppppppppppp
+
+#cd /app/deployment
+#cd /app/vulnerablewebshop/deployment
+#exec ./deploy.sh dbname root toor lolsecret

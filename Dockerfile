@@ -10,11 +10,13 @@ RUN apt-get update && \
 # Add image configuration and scripts
 ADD start-apache2.sh /start-apache2.sh
 ADD start-mysqld.sh /start-mysqld.sh
+ADD vulnerablewebshop/deployment/deploy.sh /deploy.sh
 ADD run.sh /run.sh
 RUN chmod 755 /*.sh
 ADD my.cnf /etc/mysql/conf.d/my.cnf
 ADD supervisord-apache2.conf /etc/supervisor/conf.d/supervisord-apache2.conf
 ADD supervisord-mysqld.conf /etc/supervisor/conf.d/supervisord-mysqld.conf
+ADD supervisord-deploy.conf /etc/supervisor/conf.d/supervisord-deploy.conf
 
 # Remove pre-installed database
 RUN rm -rf /var/lib/mysql/*
