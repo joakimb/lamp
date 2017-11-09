@@ -2,12 +2,204 @@
 version: '2'
 services:
 
-  lamp-server:
-    container_name: lamp-server
+  lamp-server00:
+    container_name: lamp-server00
     build: .
     ports:
-      - "80:80"
-      - "443:443"
-      - "3306:3306"
+      - "8000:80"
+      - "4400:443"
+      - "3300:3306"
     volumes:
       - ./vulnerablewebshop:/app/vulnweb
+
+        #  lamp-server01:
+        #    container_name: lamp-server01
+        #    build: .
+        #    ports:
+        #      - "8001:80"
+        #      - "4401:443"
+        #      - "3301:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server02:
+        #    container_name: lamp-server02
+        #    build: .
+        #    ports:
+        #      - "8002:80"
+        #      - "4402:443"
+        #      - "3302:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server03:
+        #    container_name: lamp-server03
+        #    build: .
+        #    ports:
+        #      - "8003:80"
+        #      - "4403:443"
+        #      - "3303:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server04:
+        #    container_name: lamp-server04
+        #    build: .
+        #    ports:
+        #      - "8004:80"
+        #      - "4404:443"
+        #      - "3304:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server05:
+        #    container_name: lamp-server05
+        #    build: .
+        #    ports:
+        #      - "8005:80"
+        #      - "4405:443"
+        #      - "3305:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server06:
+        #    container_name: lamp-server06
+        #    build: .
+        #    ports:
+        #      - "8006:80"
+        #      - "4406:443"
+        #      - "3306:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server07:
+        #    container_name: lamp-server07
+        #    build: .
+        #    ports:
+        #      - "8007:80"
+        #      - "4407:443"
+        #      - "3307:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server08:
+        #    container_name: lamp-server08
+        #    build: .
+        #    ports:
+        #      - "8008:80"
+        #      - "4408:443"
+        #      - "3308:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server09:
+        #    container_name: lamp-server09
+        #    build: .
+        #    ports:
+        #      - "8009:80"
+        #      - "4409:443"
+        #      - "3309:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server10:
+        #    container_name: lamp-server10
+        #    build: .
+        #    ports:
+        #      - "8010:80"
+        #      - "4410:443"
+        #      - "3310:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server11:
+        #    container_name: lamp-server11
+        #    build: .
+        #    ports:
+        #      - "8011:80"
+        #      - "4411:443"
+        #      - "3311:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server12:
+        #    container_name: lamp-server12
+        #    build: .
+        #    ports:
+        #      - "8012:80"
+        #      - "4412:443"
+        #      - "3312:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server13:
+        #    container_name: lamp-server13
+        #    build: .
+        #    ports:
+        #      - "8013:80"
+        #      - "4413:443"
+        #      - "3313:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server14:
+        #    container_name: lamp-server14
+        #    build: .
+        #    ports:
+        #      - "8014:80"
+        #      - "4414:443"
+        #      - "3314:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server15:
+        #    container_name: lamp-server15
+        #    build: .
+        #    ports:
+        #      - "8015:80"
+        #      - "4415:443"
+        #      - "3315:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server16:
+        #    container_name: lamp-server16
+        #    build: .
+        #    ports:
+        #      - "8016:80"
+        #      - "4416:443"
+        #      - "3316:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server17:
+        #    container_name: lamp-server17
+        #    build: .
+        #    ports:
+        #      - "8017:80"
+        #      - "4417:443"
+        #      - "3317:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server18:
+        #    container_name: lamp-server18
+        #    build: .
+        #    ports:
+        #      - "8018:80"
+        #      - "4418:443"
+        #      - "3318:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #  lamp-server19:
+        #    container_name: lamp-server19
+        #    build: .
+        #    ports:
+        #      - "8019:80"
+        #      - "4419:443"
+        #      - "3319:3306"
+        #    volumes:
+        #      - ./vulnerablewebshop:/app/vulnweb
+        #
+        #
