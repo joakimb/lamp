@@ -10,4 +10,4 @@ services:
       - "443:443"
       - "3306:3306"
     volumes:
-      - ./vulnerablewebshop:/app
+      - ./vulnerablewebshop:/app/vulnweb
